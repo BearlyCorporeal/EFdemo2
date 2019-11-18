@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DADModelStoreContainer" CdmEntityContainer="DADEntities1">
+    <EntitySetMapping Name="C102107602Author">
+      <EntityTypeMapping TypeName="DADModel.C102107602Author">
+        <MappingFragment StoreEntitySet="102107602Author">
+          <ScalarProperty Name="AuthorID" ColumnName="AuthorID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="TFN" ColumnName="TFN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C102107602Book">
+      <EntityTypeMapping TypeName="DADModel.C102107602Book">
+        <MappingFragment StoreEntitySet="102107602Book">
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Published" ColumnName="Published" />
+          <ScalarProperty Name="AuthorID" ColumnName="AuthorID" />
+          <ScalarProperty Name="StudID" ColumnName="StudID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C102107602Student">
+      <EntityTypeMapping TypeName="DADModel.C102107602Student">
+        <MappingFragment StoreEntitySet="102107602Student">
+          <ScalarProperty Name="StudID" ColumnName="StudID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C7602Owner">
+      <EntityTypeMapping TypeName="DADModel.C7602Owner">
+        <MappingFragment StoreEntitySet="7602Owner">
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+          <ScalarProperty Name="Firstname" ColumnName="Firstname" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C7602Pet">
+      <EntityTypeMapping TypeName="DADModel.C7602Pet">
+        <MappingFragment StoreEntitySet="7602Pet">
+          <ScalarProperty Name="PetName" ColumnName="PetName" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C7602Procedure">
+      <EntityTypeMapping TypeName="DADModel.C7602Procedure">
+        <MappingFragment StoreEntitySet="7602Procedure">
+          <ScalarProperty Name="ProcedureID" ColumnName="ProcedureID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C7602Treatment">
+      <EntityTypeMapping TypeName="DADModel.C7602Treatment">
+        <MappingFragment StoreEntitySet="7602Treatment">
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="ProcedureID" ColumnName="ProcedureID" />
+          <ScalarProperty Name="PetName" ColumnName="PetName" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+          <ScalarProperty Name="PricePaid" ColumnName="PricePaid" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ASSIGNMENTs">
+      <EntityTypeMapping TypeName="DADModel.ASSIGNMENT">
+        <MappingFragment StoreEntitySet="ASSIGNMENT">
+          <ScalarProperty Name="LOCCODE" ColumnName="LOCCODE" />
+          <ScalarProperty Name="STAFFID" ColumnName="STAFFID" />
+          <ScalarProperty Name="DATEASSIGNED" ColumnName="DATEASSIGNED" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Authors">
+      <EntityTypeMapping TypeName="DADModel.Author">
+        <MappingFragment StoreEntitySet="Author">
+          <ScalarProperty Name="AUTHORID" ColumnName="AUTHORID" />
+          <ScalarProperty Name="AUTHORFIRSTNAME" ColumnName="AUTHORFIRSTNAME" />
+          <ScalarProperty Name="AUTHORLASTNAME" ColumnName="AUTHORLASTNAME" />
+          <ScalarProperty Name="AUTHORTAXFILENUMBER" ColumnName="AUTHORTAXFILENUMBER" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Author0136">
+      <EntityTypeMapping TypeName="DADModel.Author0136">
+        <MappingFragment StoreEntitySet="Author0136">
+          <ScalarProperty Name="AuthorsID" ColumnName="AuthorsID" />
+          <ScalarProperty Name="AuthorsFirstName" ColumnName="AuthorsFirstName" />
+          <ScalarProperty Name="AuthorsSurname" ColumnName="AuthorsSurname" />
+          <ScalarProperty Name="AuthorsTaxFileNumber" ColumnName="AuthorsTaxFileNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Books">
+      <EntityTypeMapping TypeName="DADModel.Book">
+        <MappingFragment StoreEntitySet="Book">
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="TITLE" ColumnName="TITLE" />
+          <ScalarProperty Name="YEARPUBLISHED" ColumnName="YEARPUBLISHED" />
+          <ScalarProperty Name="AUTHORID" ColumnName="AUTHORID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Book0136">
+      <EntityTypeMapping TypeName="DADModel.Book0136">
+        <MappingFragment StoreEntitySet="Book0136">
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="YearPublished" ColumnName="YearPublished" />
+          <ScalarProperty Name="AuthorsID" ColumnName="AuthorsID" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EMPLOYEEs">
+      <EntityTypeMapping TypeName="DADModel.EMPLOYEE">
+        <MappingFragment StoreEntitySet="EMPLOYEE">
+          <ScalarProperty Name="STAFFID" ColumnName="STAFFID" />
+          <ScalarProperty Name="GIVENNAME" ColumnName="GIVENNAME" />
+          <ScalarProperty Name="SURNAME" ColumnName="SURNAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Offices">
+      <EntityTypeMapping TypeName="DADModel.Office">
+        <MappingFragment StoreEntitySet="Office">
+          <ScalarProperty Name="LOCCODE" ColumnName="LOCCODE" />
+          <ScalarProperty Name="ADDRESS" ColumnName="ADDRESS" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pet0136">
+      <EntityTypeMapping TypeName="DADModel.Pet0136">
+        <MappingFragment StoreEntitySet="Pet0136">
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+          <ScalarProperty Name="PetName" ColumnName="PetName" />
+          <ScalarProperty Name="type" ColumnName="type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PetOwner0136">
+      <EntityTypeMapping TypeName="DADModel.PetOwner0136">
+        <MappingFragment StoreEntitySet="PetOwner0136">
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="PhoenNumber" ColumnName="PhoenNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Procedure0136">
+      <EntityTypeMapping TypeName="DADModel.Procedure0136">
+        <MappingFragment StoreEntitySet="Procedure0136">
+          <ScalarProperty Name="ProcedureID" ColumnName="ProcedureID" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="DADModel.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="FIRSTNAME" ColumnName="FIRSTNAME" />
+          <ScalarProperty Name="LASTNAME" ColumnName="LASTNAME" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="PHONENUMBER" ColumnName="PHONENUMBER" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="student0136">
+      <EntityTypeMapping TypeName="DADModel.student0136">
+        <MappingFragment StoreEntitySet="student0136">
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="MobilePhoneNumber" ColumnName="MobilePhoneNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Treatment0136">
+      <EntityTypeMapping TypeName="DADModel.Treatment0136">
+        <MappingFragment StoreEntitySet="Treatment0136">
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+          <ScalarProperty Name="PetName" ColumnName="PetName" />
+          <ScalarProperty Name="ProcedureID" ColumnName="ProcedureID" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="Borrow0136" TypeName="DADModel.Borrow0136" StoreEntitySet="Borrow0136">
+      <EndProperty Name="student0136">
+        <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+      </EndProperty>
+      <EndProperty Name="Book0136">
+        <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

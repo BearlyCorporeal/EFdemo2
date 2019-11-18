@@ -1,0 +1,6 @@
+C:\Users\102570136\Documents\GitHub\EFdemo2\EFvetDemo\EFvetDB\bin\Debug\EFvetDB.dacpac
+C:\Users\102570136\Documents\GitHub\EFdemo2\EFvetDemo\EFvetDB\bin\Debug\EFvetDB.dll
+C:\Users\102570136\Documents\GitHub\EFdemo2\EFvetDemo\EFvetDB\bin\Debug\EFvetDB.pdb
+C:\Users\102570136\Documents\GitHub\EFdemo2\EFvetDemo\EFvetDB\obj\Debug\EFvetDB.sqlprojAssemblyReference.cache
+C:\Users\102570136\Documents\GitHub\EFdemo2\EFvetDemo\EFvetDB\obj\Debug\EFvetDB.dll
+C:\Users\102570136\Documents\GitHub\EFdemo2\EFvetDemo\EFvetDB\obj\Debug\EFvetDB.pdb
